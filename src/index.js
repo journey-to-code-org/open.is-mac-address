@@ -1,0 +1,1 @@
+export function isMacAddress(v,o={}){if(typeof v!=="string")return false;return /^(?:[\da-f]{2}[:-]){5}[\da-f]{2}$/iu.test(v)||/^(?:[\da-f]{4}\.){2}[\da-f]{4}$/iu.test(v)||(o.allowCompact!==false&&/^[\da-f]{12}$/iu.test(v));}

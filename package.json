@@ -1,0 +1,42 @@
+{
+  "name": "@journey-to-code/open-is-mac-address",
+  "version": "1.0.0",
+  "description": "Validates colon, hyphen, dotted, and compact MAC address formats.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.is-mac-address.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.is-mac-address/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.is-mac-address#readme",
+  "keywords": [
+    "mac",
+    "network",
+    "validation"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
